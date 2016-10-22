@@ -1,0 +1,553 @@
+body{
+    margin:0;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Montserrat', sans-serif; 
+}
+.small{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.large{
+    width: 100%;
+}
+/*Global*/
+hr{
+    background-color: black;
+    width: 55px;
+    height: 3px;
+    border: none;
+    
+    display:inline-block;
+    margin-top:30px;
+    margin-bottom: 30px;
+   
+}
+
+h1{
+    text-align:center;
+    font-size: 60px;
+    font-weight: 400;
+}
+.button{
+    
+    font-family: Montserrat;
+    font-size: 20px;
+    height: 50px;
+    line-height: 0.5;
+    font-weight: 400;
+    border-radius: 50px;
+    letter-spacing: 0.8px;
+    padding: 16px 32px;
+    border:none;
+}
+
+header .nav-wrapper{
+    height: 156px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header .nav-wrapper .logo{
+    color:black;
+    font-size: 34px;
+    font-weight: 900;
+   
+    
+}
+header .nav-wrapper .logo span{
+    display:inline-block;
+    color:black;
+    font-size: 34px;
+    font-weight: 900;
+    
+}
+header .nav-wrapper ul{
+    font-size: 18px;
+    font-weight: 400;
+    list-style: none;
+    
+}
+header .nav-wrapper li{
+    display:inline-block;
+}
+header .nav-wrapper a{
+    margin-left:30px;
+
+    color: #989898;
+    text-decoration: none;
+}
+
+header .slider{
+    background-color: #ffe1bd;
+    height: 520px;
+    text-align:center;
+    margin:0;
+}
+header .slider h1{
+   font-size: 48px;
+   font-weight: 900;
+   margin:0;
+    padding-top: 80px;
+}
+
+header .slider h2{
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 24px;
+    margin:0;
+}
+header .slider .black{
+    background-color: black;
+    color:white;
+    margin-top:80px;
+}
+
+/*Section - Services*/
+
+.services-wrapper{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+
+section .image-flex{
+    background: url('https://hd.unsplash.com/photo-1452457779869-0a9ebbbdee99');
+    background-size: cover;
+    width: 50%;
+    height: 560px;
+    margin:0;
+    margin-bottom: 90px;
+    
+    
+    
+}
+section .article-flex{
+    
+    width: 490px;
+    height: 560px;
+    
+    
+    width: 50%;
+ 
+}
+section .article-flex.right{
+    padding-left:100px;
+   
+ 
+}
+
+section.services h4{
+    font-weight: 400;
+    font-size: 26px;
+    margin:0;
+}
+section.services h2{
+    font-weight: 900;
+    font-size: 48px;
+    margin:0;
+}
+section.services p{
+    color:#656565;
+    font-size:15px;
+    font-weight: 400;
+    margin:0;
+}
+section .white{
+    background-color: white;
+    color: black;
+    border: 3px solid #d8d8d8;
+    
+    margin-top:50px;
+}
+
+/*Section - Work*/
+
+section .big-work-wrapper{
+    display: flex;
+    flex-wrap;
+    justify-content: space-between;
+}
+
+section .work-wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 982px;
+    
+}
+
+
+section .work1{
+  background: url('https://hd.unsplash.com/photo-1452457779869-0a9ebbbdee99');
+    background-size: cover;
+    
+    width: 364px;
+    height: 364px;
+    margin:0;
+}
+section .work2{
+  background: url('https://hd.unsplash.com/photo-1452457779869-0a9ebbbdee99');
+    background-size: cover;
+    
+    width: 364px;
+    height: 590px;
+    margin:0;
+}
+section .work3{
+  background: url('https://hd.unsplash.com/photo-1452457779869-0a9ebbbdee99');
+    background-size: cover;
+    
+    width: 364px;
+    height: 364px;
+    margin:0;
+}
+section .work4{
+  background: url('https://hd.unsplash.com/photo-1452457779869-0a9ebbbdee99');
+    background-size: cover;
+    
+    width: 364px;
+    height: 590px;
+    margin:0;
+}
+section .work5{
+  background: url('https://hd.unsplash.com/photo-1452457779869-0a9ebbbdee99');
+    background-size: cover;
+   
+    width: 364px;
+    height: 364px;
+    margin:0;
+}
+section .work6{
+  background: url('https://hd.unsplash.com/photo-1452457779869-0a9ebbbdee99');
+    background-size: cover;
+    
+    width: 364px;
+    height: 590px;
+    margin:0;
+}
+section .black{
+    display: block;
+    text-align: center;
+    background-color: black;
+    color:white;
+    
+    margin: 50px auto 50px;
+}
+/*Section - Team*/
+
+section.team{
+    height: 705px;
+    background-color: #ffe1bd;
+}
+
+section .big-team-wrapper{
+    display: flex;
+    max-width: 1150px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+section.team h1{
+    padding-top:90px;
+    margin-bottom: 0px;
+}
+
+section .team-wrapper{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    
+    margin: 90px auto;
+    width:700px;
+}
+
+section .face{
+    background: url('https://hd.unsplash.com/photo-1452457779869-0a9ebbbdee99');
+    background-size: cover;
+    width: 168px;
+    height: 168px;
+    border-radius:50%;
+    
+}
+section .worker{
+    text-align:center;
+}
+
+section .arrow-left{
+    background: url(jpg/arrow-left.png);
+    width: 29px;
+    height: 55px;
+}
+section .arrow-right{
+    background: url(jpg/arrow-right.png);
+    width: 29px;
+    height: 55px;
+}
+
+/*Section - Clients*/
+section .big-profile{
+    width: 50%;
+    
+    display: inline-block;
+    
+}
+section .profile{
+    float: right;
+    margin-right: 80px;
+    text-align: right;
+}
+
+section .profile h2{
+    margin: 0;
+    font-size: 40px;
+}
+section .profile hr{
+    margin: 0;
+}
+section .profile h4{
+    margin-top: 10px;
+}
+section .big-p{
+    width: 50%;
+    
+    float: right;
+   
+    
+}
+
+section p{
+    float:left;
+    font-size: 15px;
+}
+section .img-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+section .image{
+    width: 266px;
+    height: 140px;
+    
+}
+
+section .slider2{
+    text-align: center;
+    padding-bottom: 100px;
+    
+}
+section .slider2 span{
+    background-color: white;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    font-size: 20px;
+    
+}
+section .slider2 span{
+    display: inline-block;
+    width:14px;
+    height:14px;
+    background-color:#fff;
+    margin-right: 8px;
+    border-radius: 50%;
+}
+/*Footer*/
+
+footer{
+    
+}
+footer .contact{
+    height: 705px;
+    background-color: black;
+    color:white;
+}
+footer .contact h1{
+    padding-top:80px;
+    color: white;
+}
+footer .contact-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .form-wrapper{
+    width: 50%;
+    padding-left: 20px;
+}
+footer .info-wrapper{
+    
+    width: 50%;
+    
+    font-size: 15px;
+    font-weight: 400;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 275px;
+}
+footer .adress-wrapper{
+    
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+footer .number-wrapper{
+   
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+footer .email-wrapper{
+    
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+footer .icon-pin{
+    background: url(jpg/pin.png);
+    width: 12px;
+    height: 16px;
+}
+footer .adress{
+    margin-left:20px;
+    width: 480px;
+}
+footer .icon-phone{
+    background: url(jpg/phone.png);
+    width: 12px;
+    height: 16px;
+}
+footer .number{
+    margin-left:20px;
+    width: 480px;
+}
+footer .icon-envelope{
+    background: url(jpg/envelope.png);
+    width: 16px;
+    height: 12px;
+}
+footer .email{
+    margin-left: 20px;
+    width: 480px;
+}
+footer .social-wrapper{
+    width: 286px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin-left:78px;
+}
+
+footer .social-icon{
+    background: url(jpg/social-icon.png);
+    width: 40px;
+    height: 40px;
+    position: relative;
+    
+}
+footer .social-icon .fb-logo{
+    background: url(jpg/fb-logo.png);
+    width: 12px;
+    height: 24px;
+    position: absolute;
+    top: 8px;
+    left: 14px;
+    
+}
+footer .social-icon .tw-logo{
+    background: url(jpg/tw-logo.png);
+    width: 24px;
+    height: 20px;
+    position: absolute;
+    top: 11px;
+    left: 9px;
+    
+}
+footer .social-icon .gp-logo{
+    background: url(jpg/gp-logo.png);
+    width: 24px;
+    height: 21px;
+    position: absolute;
+    top: 10px;
+    left: 9px;
+    
+}
+footer .social-icon .pt-logo{
+    background: url(jpg/pt-logo.png);
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    
+}
+
+footer .social-icon .insta-logo{
+    background: url(jpg/insta-logo.png);
+    width: 24px;
+    height: 25px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    
+}
+
+footer form{
+    color: #3b3939; 
+    display: block;
+    width: 50%;
+}
+footer label{
+    margin-top: 10px;
+}
+
+footer input[type=text] {
+    width: 100%;
+    margin-bottom: 45px;
+    background-color: black;
+    font-size: 15px;
+    outline: none;
+    color: #3b3939;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #3b3939;
+}
+footer .white{
+    background-color: white;
+}
+footer .reserved{
+    text-align: center;
+    padding-top:45px;
+    padding-bottom: 45px;
+}
+footer h3{
+    margin:0px;
+    font-size: 18px;
+    font-weight: 900;
+}
+footer h4{
+    margin-top:10px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ccc;
+}
